@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON CHALLENGE</title>
+</head>
+<body>
+
+    <h1>welcome</h1>
+    
+    <script>
+
+        let student = [
+               {
+                    studentIDnumber: "001",
+                    studentName: "ABC",
+                    studentCourse: "Information Technology",
+                    studentAge: 22,
+                    studentAddress: "Buenavista",
+                    isStudentEnrolled: true
+                },
+               {
+                    studentIDnumber: "002",
+                    studentName: "DEF",
+                    studentCourse: "Enginerring",
+                    studentAge: 24,
+                    studentAddress: "Torijjos",
+                    isStudentEnrolled: false
+                },
+               {
+                    studentIDnumber: "003",
+                    studentName: "GHI",
+                    studentCourse: "Accountancy",
+                    studentAge: 19,
+                    studentAddress: "Mogpog",
+                    isStudentEnrolled: true
+                },
+               {
+                    studentIDnumber: "004",
+                    studentName: "JKL",
+                    studentCourse: "Education",
+                    studentAge: 26,
+                    studentAddress: "Gasan",
+                    isStudentEnrolled: true
+                },
+               {
+                    studentIDnumber: "005",
+                    studentName: "MNO",
+                    studentCourse: "Tourism",
+                    studentAge: 24,
+                    studentAddress: "Buenavista",
+                    isStudentEnrolled: false
+                }
+        ]
+
+        for(let i = 0 ; i < student.length; i++){
+            console.log(`Student Name:      ${student[i].studentName}`)
+            console.log(`Student ID Number: ${student[i].studentIDnumber}`)
+            console.log(`Student Course:    ${student[i].studentCourse}`)
+            console.log(`Student Age:       ${student[i].studentAge}`)
+            console.log(`Student Address:   ${student[i].studentAddress}`)
+            console.log(`Is student enrolled?: ${student[i].isStudentEnrolled}`)
+            console.log('')
+        }
+
+
+
+
+    </script>
+</body>
+</html>
